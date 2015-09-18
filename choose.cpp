@@ -52,6 +52,7 @@ void Combination::findPatterns(int k) {
     
 }
 
+/* Hamming Weight: http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer */
 int Combination::countOnes(unsigned int u) {
     unsigned int uCount;
     
